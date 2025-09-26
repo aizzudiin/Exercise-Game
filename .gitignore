@@ -1,0 +1,44 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Local environment variables
+.env
+.env.local
+
+# Build output
+.cache/
+
+# Editor directories and files
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Debug logs
+*.log
+
+# Local development server files
+.server/
+
+# MediaPipe cache files (jika ada)
+*.tflite
+*.bin
+
+# File-file sementara
+*.tmp
+*.bak
+*.swp
+*~
+
+# Folder yang tidak diperlukan untuk version control
+.idea/
+
+# File hasil build (jika ada)
+dist/
+build/
+
+# File konfigurasi lokal
+*.local.*
