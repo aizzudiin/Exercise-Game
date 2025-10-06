@@ -108,7 +108,7 @@ class UIManager {
                                     <i class="fas fa-arrow-left"></i> Kembali
                                 </button>
                                 <button type="button" class="btn btn-primary" onclick="uiManager.startLevel()">
-                                    <i class="fas fa-play"></i> Mulai Level
+                                    <i class="fas fa-play"></i> Mulai Bermain
                                 </button>
                             </div>
                         </div>
@@ -346,7 +346,7 @@ class UIManager {
                             <div class="tutorial-step">
                                 <div class="step-number">7</div>
                                 <div class="step-content">
-                                    <h3>Jika kamu menggunakan HP, disarankan untuk memutar layar ke posisi horizontal, atau buka pengaturan setting browser dan pilih situs desktop (biasanya ada dititik tiga kanan atas browser)</h3>
+                                    <h3>Jika kamu menggunakan HP, disarankan untuk memutar layar ke posisi Landscape, atau buka pengaturan setting browser dan pilih situs desktop (biasanya ada dititik tiga kanan atas browser)</h3>
                                 </div>
                             </div>
                         </div>
