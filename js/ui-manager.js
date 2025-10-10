@@ -98,18 +98,18 @@ class UIManager {
                                     <div class="instruction-image-container">
                                         <img id="instructionImage" alt="Exercise Instruction" class="instruction-image">
                                     </div>
+                                    <div class="instruction-buttons">
+                                        <button type="button" class="btn btn-secondary" onclick="uiManager.backToLevelSelection()">
+                                            <i class="fas fa-arrow-left"></i> Kembali
+                                        </button>
+                                        <button type="button" class="btn btn-primary" onclick="uiManager.startLevel()">
+                                            <i class="fas fa-play"></i> Mulai Bermain
+                                        </button>
+                                    </div>
                                     <div class="instruction-text">
                                         <p id="levelInstructions"></p>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" onclick="uiManager.backToLevelSelection()">
-                                    <i class="fas fa-arrow-left"></i> Kembali
-                                </button>
-                                <button type="button" class="btn btn-primary" onclick="uiManager.startLevel()">
-                                    <i class="fas fa-play"></i> Mulai Bermain
-                                </button>
                             </div>
                         </div>
                     </div>
