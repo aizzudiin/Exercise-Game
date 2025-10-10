@@ -16,6 +16,10 @@ class GameManager {
         document.getElementById('timer').textContent = this.formatTime(this.currentLevel.duration);
         document.getElementById('xpCounter').textContent = `0/${this.currentLevel.xpReward} XP`;
         
+        // Update min score and XP display
+        document.getElementById('minScoreDisplay').textContent = `Skor Minimum: ${this.currentLevel.requiredScore}%`;
+        document.getElementById('xpRewardDisplay').textContent = `XP: ${this.currentLevel.xpReward}`;
+        
         // Load reference animation
         const referenceImg = document.getElementById('referenceAnimation');
         referenceImg.src = this.currentLevel.gifUrl;

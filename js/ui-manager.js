@@ -80,6 +80,16 @@ class UIManager {
                             <div id="countdown" class="countdown" style="display: none;">Bersiap !</div>
                         </div>
                         <div class="reference-container">
+                            <div class="exercise-stats">
+                                <div class="stat-item">
+                                    <i class="fas fa-trophy"></i>
+                                    <span id="minScoreDisplay">Skor Minimum: 0%</span>
+                                </div>
+                                <div class="stat-item">
+                                    <i class="fas fa-star"></i>
+                                    <span id="xpRewardDisplay">XP: 0</span>
+                                </div>
+                            </div>
                             <img id="referenceAnimation" alt="Exercise Reference">
                             <div id="feedback" class="feedback-text">Bersiap!</div>
                         </div>
